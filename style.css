@@ -1,3 +1,20 @@
 :root{
-    --
+    --primary-color: #F5CF06;
+    --secondary-color: #8E4106;
+}
+body{
+    height: 100vh;
+    background-color: var(--primary-color);
+    padding: 70px;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: tomato;
+}
+header span{
+    font-size: 32px;
+    color: var(--secondary-color);
 }
